@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CallNote - Maximize Efficiency, Minimize Mistakes</title>
+    <link rel="icon" type="image/x-icon" href="Assets/favicon.ico"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/css/bootstrap.min.css" integrity="sha512-rt/SrQ4UNIaGfDyEXZtNcyWvQeOq0QLygHluFQcSjaGB04IxWhal71tKuzP6K8eYXYB6vJV4pHkXcmFGGQ1/0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Styles/Layout.css" />
+    <link rel="stylesheet" href="Styles/Home.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand fixed-top bg-dark">
+        <div class="navbar-container container flex-row">
+            <a class="navbar-brand" href="#">
+                <img src="Assets/CallNote Main.png" alt="Logo">
+            </a>
+            <br />
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a id="product-btn" class="btn btn-lg current">Product</a>
+                </li>
+                <li class="nav-item">
+                    <a id="about-btn" class="btn btn-lg">About</a>
+                </li>
+                <li class="nav-item">
+                    <a id="contact-btn" class="btn btn-lg">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div>
+        <div id="content-background">
+            <div id="content-container">
+                <div id="product" class="container-fluid content-section">
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-12 col-md-10">
+                            <h1>
+                                Maximize efficiency, minimize mistakes,
+                                streamline your workflow with <span>CallNote</span>
+                            </h1>
+                            <h2 class="mt-4">Designed for the <span>ag</span> parts department</h2>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6 mb-4 mb-xl-0">
+                            <h2>Function</h2>
+                            <h3>
+                                CallNote maintains a list of notes for every parts
+                                person in your company. When a customer calls, the user
+                                will create a new note with as many parts as needed.
+                                The note can be updated and marked as <i>Done</i> when the 
+                                customer is given price and availabilty. Notes are 
+                                prioritized with <i>In Progress</i> notes at the top 
+                                and <i>Done</i> notes on the bottom. Other user's notes 
+                                can be accessed by selecting their tab along the side.
+                            </h3>
+                        </div>
+                        <div class="col-xl-6">
+                            <img src="Assets/Creating Note.png" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6 mb-4 mb-xl-0 order-xl-2">
+                            <h2>Search</h2>
+                            <h3>
+                                The wildcard search box filters all notes.
+                                The search-term can match anything in the note including
+                                name, part number, description, date, and any other field.
+                                Other user's names will become highlighted if their list
+                                contains any matches.
+                            </h3>
+                        </div>
+                        <div class="col-xl-6 order-xl-1">
+                            <img src="Assets/Search.png" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6 mb-4 mb-xl-0">
+                            <h2>Integration</h2>
+                            <h3>
+                                CallNote can integrate with select inventory management software.
+                                Matched parts in inventory will appear in a dropdown when a
+                                part number is added to a note. Select an item from the dropdown
+                                to auto-fill the rest of the part information.
+                            </h3>
+                        </div>
+                        <div class="col-xl-6">
+                            <img src="Assets/Integrate.png"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 mb-4 mb-lg-0">
+                            <h2>Collaborate</h2>
+                            <h3>
+                                <i>Send</i> will transfer the designated note to the
+                                selected user. The note will be removed from the sending
+                                user's list. <i>Share</i> will display the note in the selected
+                                user's list while also keeping it in the sharing user's list.
+                                A note can be shared with any number of users.
+                                Changes by any shared user will be reflected under all users.
+                            </h3>
+                        </div>
+                        <div class="col-lg-6">
+                            <h2>Live Sync</h2>
+                            <h3>
+                                CallNote will regularly check for sent notes, sharing changes,
+                                and note updates made by other users. Any updates will be
+                                displayed in near real time.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div id="about" class="container-fluid content-section">
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-12 col-md-10">
+                            <h1>
+                                About
+                            </h1>
+                            <h3>
+                                Over the years of working behind the parts counter at
+                                Hill-T Farm in Ohio, Cyrus Hilty saw a need for a computerized
+                                way to keep track of customer phone calls. Previously each
+                                parts person used a big note book to write everything down. This
+                                resulted in sometimes not being able to find record of speaking to
+                                a customer, or even worse, forgetting to follow up with their need.
+                                As a software hobbyist, Cyrus began work on CallNote in 2021 to 
+                                fill the need. Hill-T Farm began using CallNote mid 2022 and has
+                                been using it all day every day since. Seeing the difference that 
+                                CallNote made at Hill-T Farm, Cyrus decided to release the software 
+                                to the public for other salvage yards to benefit from. CallNote is 
+                                being actively maintained and improved. Full product support 
+                                is provided with the subscription.
+                            </h3>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                </div>
+                <div id="contact" class="container-fluid content-section">
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-12 col-md-10">
+                            <h1>
+                                Get your demo today
+                            </h1>
+                            <h2>
+                                (937)670-9504
+                            </h2>
+                            <h2>
+                                sales@callnotes.net
+                            </h2>
+                            <h3>
+                                4295 Richmond Palestine Rd, New Madison, Ohio 45346
+                            </h3>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="copyright">
+            <span></span>
+        </div>
+    </div>
+
+    <script src="Scripts/Home.js"></script>
+</body>
+</html>
